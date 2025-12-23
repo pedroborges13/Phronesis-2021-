@@ -17,7 +17,7 @@ Throughout the project, I worked with programming, documentation, dialogue writi
 
 ## My Main Contributions
 - Implemented the boss behavior and combat logic
-  - [Boss.cs](Assets/Scripts/Boss.cs)
+  - [Boss.cs](Assets/Scripts/Boss/Boss.cs)
 - Developed a dialogue system using ScriptableObjects
   - [FalaNPC.cs](Assets/Scripts/FalasFinal/FalasNPCs/FalaNPC.cs) (ScriptableObject – dialogue data)
   - [RespostaKid.cs](Assets/Scripts/FalasFinal/Respostas/RespostaKid.cs) (Dialogue branching structure)
