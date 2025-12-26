@@ -51,7 +51,7 @@ This boss script was one of my first attempts at creating a more complex enemy b
 
 ---
 
-## 🔗 Links
+## 🔗 Links (Download only)
 - Itch.io page: kaue-uriel.itch.io/phronesis
   
 Despite its limitations, this project was an important step in my learning journey and helped me better understand how to work in a team and build complete game systems.
