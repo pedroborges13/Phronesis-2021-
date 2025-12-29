@@ -1,4 +1,4 @@
-## Final Graduation Project
+#Phronesis - Final Graduation Project (2021)
 A 2.5D action-platformer where you control a young man who woke up in a suburban slum's junkyard with no memory of his past. Face mysterious creatures as you try to uncover what is happening in this city.
 
 ![compressed-M4M1qZKI](https://github.com/user-attachments/assets/3c820a3d-5e16-4305-9510-554d050b7155)
