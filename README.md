@@ -1,5 +1,6 @@
-#Phronesis - Final Graduation Project (2021)
-A 2.5D action-platformer where you control a young man who woke up in a suburban slum's junkyard with no memory of his past. Face mysterious creatures as you try to uncover what is happening in this city.
+# Phronesis - Final Graduation Project (2021)
+
+A 2.5D action-platformer where you control a young man who woke up in a rubbish dump in a deprived area with no memory of his past. Face mysterious creatures as you try to uncover what is happening in this city.
 
 ![compressed-M4M1qZKI](https://github.com/user-attachments/assets/3c820a3d-5e16-4305-9510-554d050b7155)
 
@@ -38,13 +39,13 @@ Throughout the project, I worked with programming, documentation, dialogue writi
 
 ## What I Would Do Differently Today - General overview
 Looking back at the project, there are several things I would approach differently:
-- I wouldn't mix English and Portuguese in the code
-- I would write comments more often and with more detail
 - I would use private variables and read-only properties instead of making most variables public
 - I would use polymorphism. At the time, I was not familiar with this concept and didn't design a scalable architecture. Because of this, I created several repeated scripts with the same purpose for different NPCs, such as "KidDialogo", "VelhoDialogo", "ComandanteDialogo", and "MendigoDialogo"
 - I would use events
 - For performance reasons, I wouldn't use so many FindObjectOfType and string-based tag comparisons (tag == "Player").
 - I would avoid scripts that handle too many responsibilities
+- I wouldn't mix English and Portuguese in the code
+- I would write comments more often and with more detail
   
 ## Boss System – Technical Reflection
 This boss script was one of my first attempts at creating a more complex enemy behavior. It controls movement, attacks, combat phases, animations, and player interaction in a single script. At the time, my main goal was to make the fight feel dynamic and challenging. Today, I would improve this system by separating responsibilities into smaller scripts (movement, combat, phases, and animations), using a clear state machine instead of many boolean variables, and reducing code duplication. I would also improve code readability by using better naming, more comments, and a cleaner structure to make the system easier to maintain and extend.
